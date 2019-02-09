@@ -1,0 +1,19 @@
+app: {
+    page: {
+        year: 2016,
+        photos: [photo, photo, photo...]
+    },
+    user: {
+        name: 'Имя',
+        ...
+    }
+}
+
+Action: 
+{
+    type: 'ЗАГРУЗИ_ФОТО',
+    payload: 2018 //год
+}
+
+
+Чтобы вызвать actions, мы должны написать функцию - ActionsCreator
